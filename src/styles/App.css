@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.AppContainerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  gap: 20px;
+}
+
+.AppButton {
+  background-color: #555a88;
+  color: white;
+  width: 100%;
+  max-width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.AppButton:hover {
+  transform: scale(1.05);
+  transition: transform 200ms ease;
+  box-shadow: 10px 5px 10px #0007;
+  transition: box-shadow 250ms ease;
+}
+
+.formContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0002;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1;
+}
+
+.disableForm {
+  display: none;
+}
+
+.usersContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

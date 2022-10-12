@@ -1,0 +1,85 @@
+.form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px 8px #0009;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.formX {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: rgb(182, 38, 38);
+  cursor: pointer;
+}
+
+.formX:hover {
+  transform: scale(1.5);
+  transition: transform 200ms ease;
+}
+
+.formTitle {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 20px;
+}
+
+.formLabel {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000c;
+}
+
+.formInput {
+  padding: 7px 15px;
+  background-color: #f9fafc;
+  border: 1px solid #b5b5b5;
+  border-radius: 8px;
+  font-weight: 400;
+}
+
+.formInput::placeholder {
+  color: #b1b1b1;
+}
+
+.formButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.formButtons button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid 1px;
+  cursor: pointer;
+  color: white;
+}
+
+.formButtons button:hover {
+  filter: brightness(1.4);
+  transition: filter 200ms ease;
+  transform: scale(1.1);
+  transition: transform 200ms ease;
+}
+
+.formButtonCreate {
+  background-color: rgb(14, 145, 2);
+}
+
+.formButtonCancel {
+  background-color: rgb(182, 38, 38);
+}
